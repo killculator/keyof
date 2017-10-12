@@ -2,7 +2,7 @@
 require 'rubygems'
 require 'json'
 
-json = File.open("/Users/alex/bin/src/keys.json","r").read
+json = File.open(ENV["HOME"]+"/bin/src/keys.json","r").read
 obj = JSON.parse(json)
 
 #loop through json file to find key that matches argument
