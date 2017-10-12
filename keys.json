@@ -1,0 +1,25 @@
+{"keys": [
+	{"key":"cmaj", "relative":"A minor", "notes":"C D E F G A B", "triads":"C Dm Em F G Am Bdim"},
+	{"key":"gmaj", "relative":"E minor", "notes":"G A B C D E F#", "triads":"G Am Bm C D Em F#dim"},
+	{"key":"dmaj", "relative":"B minor", "notes":"D E F# G A B C#", "triads":"D Em F#m G A Bm C#dim"},
+	{"key":"amaj", "relative":"F# minor", "notes":"A B C# D E F# G#", "triads":"A Bm C#m D E F#m G#dim"},
+	{"key":"emaj", "relative":"C# minor", "notes":"E F# G# A B C# D#", "triads":"E F#m G#m A B C#m D#dim"},
+	{"key":"bmaj", "relative":"G# minor", "notes":"B C# D# E F# G# A#", "triads":"B C#m D#m E F# G#m A#dim"},
+	{"key":"f#maj", "relative":"D# minor", "notes":"F# G# A# B C# D# E#", "triads":"F# G#m A#m B C# D#m E#dim"},
+	{"key":"dbmaj", "relative":"Bb minor", "notes":"Db Eb F Gb Ab Bb C", "triads":"Db Ebm Fm Gb Ab Bbm Cdim"},
+	{"key":"abmaj", "relative":"C minor", "notes":"Ab Bb C Db Eb F G", "triads":"Ab Bbm Cm Db Eb Fm Gdim"},
+	{"key":"ebmaj", "relative":"G minor", "notes":"Bb C D Eb F G A", "triads":"Bb Cm Dm Eb F Gm Adim"},
+	{"key":"fmaj", "relative":"D minor", "notes":"F G A Bb C D E", "triads":"F Gm Am Bb C Dm Edim"},
+	
+	{"key":"amin", "relative":"C major", "notes":"A Bb C D E F G", "triads":"Am Bdim C Dm Em F G"},
+	{"key":"emin", "relative":"G major", "notes":"E F# G A B C D", "triads":"Em F#dim G Am Bb C D"},
+	{"key":"bmin", "relative":"D major", "notes":"B C# D E F# G A", "triads":"Bm C#dim D Em F#m G A"},
+	{"key":"f#min", "relative":"A major", "notes":"F# G# A B C# D E", "triads":"F#m G#dim A Bm C#m D E"},
+	{"key":"c#min", "relative":"E major", "notes":"C# D# E F# G# A B", "triads":"C#m D#dim E F#m G#m A B "},
+	{"key":"g#min", "relative":"B major", "notes":"G# A# B C# D# E F#", "triads":"G#m A#dim B C#m D#m E F#"},
+	{"key":"d#min", "relative":"F# major", "notes":"F# G# A# B C# D# E#", "triads":"F# G#m A#m B C# D#m E#dim"},
+	{"key":"bbmin", "relative":"Db minor", "notes":"Bb C Db Eb F Gb Ab", "triads":"Bbm Cdim Db Ebm Fm Gb Ab"},
+	{"key":"cmin", "relative":"Ab Major", "notes":"C Db Eb F G Ab Bb", "triads":"Cm Db Eb Fm Gdim Ab Bbm"},
+	{"key":"gmin", "relative":"Eb Major", "notes":"G A Bb C D Eb F", "triads":"Gm Adim Bb Cm Dm Eb F"},
+	{"key":"dmin", "relative":"F major", "notes":"D E F G A Bb C", "triads":"Dm Edim F Gm Am Bb C"}
+	]}

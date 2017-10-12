@@ -1,0 +1,30 @@
+#!/usr/bin/ruby -w
+require 'rubygems'
+require 'json'
+
+json = File.open("/Users/alex/bin/src/keys.json","r").read
+obj = JSON.parse(json)
+
+#loop through json file to find key that matches argument
+ARGV.each do |arg|
+	notfound = true
+	i = 0
+	#22 is amount of main scales
+	while i < 22 do
+		#key object at index i
+		key = obj["keys"][i]
+		if key["key"] == arg
+			notfound = false
+			#build output string
+			str = "--key of #{arg}--" + "\n" + "relative: " + key["relative"] + "\n" + "notes: " + key["notes"] + "\n" + "triads: " + key["triads"]
+			puts str
+			break
+		end
+		i += 1
+	end
+	if notfound == true
+		puts "#{arg} not found! :["
+	else
+		puts ":]"
+	end
+end
